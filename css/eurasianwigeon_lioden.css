@@ -1,0 +1,9 @@
+/* 'Eurasian Wigeon' CSS for Lioden */
+/* CSS made by and intended for Moscovium-289 (#499816),
+but you can use it if you come across it and like it.
+*/
+
+body {
+	background: url('https://raw.githubusercontent.com/moscovium289/moscovium289.github.io/main/css-assets/eurasianwigeon_bg.png') center center fixed;
+	background-size: 100%;
+}
