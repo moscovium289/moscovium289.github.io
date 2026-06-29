@@ -1,0 +1,700 @@
+/* 'Ruddy Shelduck' CSS for Lioden */
+/* this CSS file is made by and intended for Moscovium-289 (#499816),
+but you can use it if you come across it and like it.
+*/
+
+/* To honour credits, the following are credits for the 'dark mode' aspects of this CSS file. */
+	/*CREDIT, DO NOT REMOVE:
+		Made by tricks #175516 (main)/#474316 (side)
+		Inspired by River #34 and their minty dark mode css!
+		You can edit this as you wish, just don't remove the credits and dont charge for it. I made this as an accessibility tool.
+	*/ 
+
+
+body {
+	background: url('https://raw.githubusercontent.com/moscovium289/moscovium289.github.io/main/css-assets/ruddyshelduck_bg.png') center center fixed;
+	background-size: 100%;
+}
+
+/*MAIN BODY*/
+div.container.main {
+    background: #111 !important;
+}
+
+div.row {
+    background: none !important;
+    color: #ffffff7d !important;
+}
+
+.container.topbar {
+    background: #111 !important;
+    color: #ffffff7d !important;
+}
+
+.col-md-9 {
+    background: #1e1e1e !important;
+}
+
+h1, h2 {
+    color: #7c6d54 !important;
+}
+
+h3 {
+    color: #ffffff7d !important;
+}
+
+a:link, a:visited {
+    color: #908267 !important;
+}
+
+a:hover {
+    color: #e49717d9 !important;
+}
+
+th {
+    color: #ffffff7d !important;
+}
+
+.left {
+    background: #3f382c !important;
+}
+
+#txtChatInput, textarea, input {
+    background: #2c2c2c !important;
+    border: 1px solid #000 !important;
+    color: #ffffff7d !important;
+}
+
+select {
+    background: #2c2c2c !important;
+    color: #ffffff7d !important;
+    border: 2px solid #2c2c2c !important;
+}
+
+input[type="submit"], button.button, #btnToggleSidebarChat, #btnChatSend {
+    background: #5a4e38;
+	color: #ffffff7d !important;
+    text-shadow: none !Important;
+    border: 1px solid #1e1e1e !important;
+}
+
+input[type="submit"]:hover, button.button:hover, #btnToggleSidebarChat:hover, #btnChatSend:hover {
+    background: #3f382c !important;
+    text-shadow: none !important;
+    color: #ffffff7d !important;
+}
+
+.alert-success, .alert-danger, .alert-info {
+    background: #111 !important;
+    border: #1e1e1e !important;
+}
+
+.randommember {
+    background: #2c2c2c !important;
+}
+
+.item {
+    background: #1e1e1e !important;
+    border: 1px solid #111 !important;
+}
+
+.item-header, .item-footer {
+    background: #111 !important;
+    color: #ffffff7d !important;
+}
+
+.unread-msg {
+    background: #382e1b !important;
+}
+
+/*SIDEBAR*/
+.sidebar {
+    background: #111 !important;
+}
+
+.panel {
+    background: #1e1e1e !important;
+    border: none !important;
+    box-shadow: 1px 1px 1px #000 !important;
+}
+
+.progress {
+    background-color: #383838 !important;
+}
+
+.progress-bar {
+    background: #7c6d54 !important;
+}
+
+/*NAVBARS*/
+.navbar.navbar-default {
+    background: #2c2c2c !important;
+}
+
+.navbar li a:hover, .sub_menu_item_selected, .combo-select-row[selected], .combo-select-row:hover {
+    background: #373737 !important;
+    color: #be9d5e !important;
+    border: none !important;
+}
+
+ol.breadcrumb {
+    background: #2c2c2c !important;
+}
+
+input.floatright {
+    background: #5a4e38 !important;
+    color: #be9d5e !important;
+    border: none !important;
+    text-shadow: none;
+}
+
+input.floatright:hover {
+    background: #7c6d54 !important;
+    color: #d1b989 !important;
+    border: none !important;
+    text-shadow: none;
+}
+
+.s-chat-sidebar .emoteList::after {
+    border-top-color: #2c2c2c !important;
+}
+
+.s-chat-sidebar .emoteList::before{
+    border-top-color: #000 !important;
+}
+
+/*CHATBOX*/
+.s-chat-error_screen {
+    background: #1e1e1e !important;
+    color: #ffffff7d !important;
+}
+
+div#chatMessagePinned.s-chat-message__pinned {
+    background: #382e1b !important;
+    color: #be9d5e !important;
+    border-bottom-color: #5a4e38 !important;
+}
+
+button#label_currentChannel {
+    background: #2c2c2c !important;
+    color: #ffffff7d !important;
+    border: 1px solid #383838 !important;
+}
+
+div#fraChatSettingsMenu {
+    background: #373737 !important;
+    border-color: #1a1a1a !important;
+    box-shadow: 1px 1px 2px #111;
+    color: #ffffff7d !important;
+}
+
+#fraChatSettingsMenu::before, #fraChatSettingsMenu::after {
+    border-bottom-color: #373737;
+}
+
+#fra_chatContainer label {
+    color: #ffffff7d !important;
+}
+
+#fraChatChannelMenu {
+    background: #2c2c2c !important;
+    border: 1px solid #000 !important;
+    box-shadow: 1px 1px 2px #000 !important;
+}
+
+.s-chat-message:nth-child(even){
+    background: #242424 !important;
+    color: #ffffff7d !important;
+}
+
+.s-chat-message:nth-child(odd) {
+    background: #2c2c2c !important;
+    color: #ffffff7d !important;
+}
+
+.s-chat-message_mention:nth-child(even), .s-chat-message_mention:nth-child(odd) {
+    background: #473a22 !important;
+    color: #ffffff7d !important;
+}
+
+.s-chat_username {
+    color: #7c6d54 !important;
+}
+
+#chatMessageContainer {
+    border: 1px solid #111;
+}
+    
+#txtChatContainer {
+    color: #333;
+}
+
+.s-chat-message.hasContext {
+    border-left-color: #7c6d54 !important;
+}
+
+.sub_menu {
+    background: #2c2c2c !important;
+    color: #ffffff7d !important;
+}
+
+.channelSwitcher {
+    color: #7c6d54 !important;
+}
+
+.channelSwitcher.active {
+    background: #7c6d54 !important;
+    color: #111 !important;
+}
+
+.channelSwitcher:hover {
+    background: #373737 !important;
+}
+
+#context-chatMenu {
+  background: #3f382c;
+  border-radius: 4px;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 2px #000;
+}
+
+button.chatMenu-option {
+    background: #3f382c !Important;
+    color: #7c6d54 !important;
+}
+
+button.chatMenu-option:hover {
+    background: #5a4e38 !important;
+    color: #d1b989 !important;
+}
+
+.chatMenu-option.chatMenu-confirm {
+    color:#ff7a7a8a !important;
+}
+
+.chatMenu-option.chatMenu-confirm:hover {
+    color: #c14545 !important;
+}
+
+#context-chatMenu::before, #context-chatMenu::after {
+    border-left-color: #3f382c !Important;  
+}
+
+.emoteList, .emoteList.active {
+    background: #2c2c2c !important;
+    border-color: #000 !important;
+}
+
+.emoteList::after {
+    border-bottom-color: #2c2c2c !important;
+}
+
+.emoteList::before {
+    border-bottom-color: #000 !important;
+}
+    
+.s-chat__username[data-type="admin"] {
+    color: #ff7a7a8a !important;
+}
+
+.s-chat-message.s-chat-message__mod, .right_locked {
+    color: #000 !important;
+    font-weight: bold;
+    background: #254226 !important;
+    border-bottom-color: #000 !important;
+    border-top-color: #000 !important;
+}
+    
+.modMessage {
+    color: #2c2c2c !important;
+}
+
+.bg-info-200 {
+    background: #2c2c2c !important;
+    border-radius: 4px !important;
+}
+
+code {
+    background: #1e1e1e !important;
+    color: #ff7a7a8a !important;
+}
+
+/*DEN*/
+hr { 
+    border: 0;
+    background-color: #5a4e38;
+    height: 1px;
+}
+
+tr {
+    color: #ffffff7d !important;
+}
+
+td.top.center {
+    background: #3f382c !important;
+}
+
+td.bottom {
+    background: #3f382c !important;
+}
+    
+td.top {
+    background: #3f382c !important;
+    color: #ffffff7d !important;
+}
+
+th {
+    background: #3f382c !important;
+}
+
+table.inner-table.auto tr td.right {
+    border: 1px solid #5a4e38 !Important;
+}
+
+td.right_odd {
+    background: #111 !Important;
+}
+
+tr.right_odd {
+    background: #111 !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #000 !important;
+}
+
+.navtabs li a {
+    background :#000 !important;
+}
+
+.inner-table .left {
+	background: #5a4e38 !important;
+    color: #ffffff7d;
+}
+
+.inner-table .right {
+	background: #111;
+}
+
+.cave-grid, .mound-grid {
+    background: #111 !important;
+    border: 1px solid #000 !important;
+}
+
+.feature {
+    background: #111 !important;
+    border: 1px solid #000 !important;
+}
+
+input:checked + .slider {
+    background-color: #be9d5e !important;
+}
+
+.slider::before {
+    background-color: #ffffff7d !important;
+}
+
+.slider {
+    background-color: #333 !important;
+}
+
+.badge {
+    background: #5a4e38 !important;
+    color: #ffffff7d !important;
+}
+
+div.stage {
+    border: 1px solid #000 !important;
+}
+
+tr.top {
+    background: #3f382c !important;
+}
+
+div.ageProgress {
+    background-color: #be9d5e !important;
+}
+
+div.currentStage {
+    border-right: 2px solid #473a22 !Important;
+}
+
+.settings_display {
+    background: #373737 !important;
+}
+
+.slider {
+    background: #242424 !important;
+}
+
+.standing-bar {
+    color: #ffffff7d !important;
+}
+
+tbody{
+    background: #1e1e1e !important;
+}
+
+/*BUTTONS*/
+input.good, button.button.good {
+    color: #7aff838a !important;
+    background: #263a27 !important;
+}
+
+input.bad, button.button.bad, a.button.bad {
+    color: #ff7a7a8a !important;
+    background: #3a2626 !important;
+}
+
+input.bad:hover, button.button.bad:hover, a.button.bad:hover {
+    color: #ff7a7a8a !important;
+    background: #503030 !important;
+}
+
+input[type="button"], button.col-xs-12, #btnLevelUp, .btn-block, button.button, a.button {
+	background: #5a4e38;
+	color: #ffffff7d !important;
+    text-shadow: none !Important;
+    border: 1px solid #1e1e1e !important;
+}
+
+input[type="button"]:hover, button.col-xs-12:hover, .btn-block:hover, .button.button:hover, a.button:hover{
+    background: #3f382c !important;
+    text-shadow: none !important;
+    color: #ffffff7d !important;
+}
+
+input.shop-button {
+    background: #263a27 !important;
+    color: #7aff838a !important;
+}
+
+/*MISC*/
+.winner, .loser {
+    background: #2c2c2c !important;
+    }
+
+.winner {
+    border-left: 5px solid #005414 !important;
+}
+
+.loser {
+    border-left: 5px solid #7d2b2b !important;
+}
+
+tr.right_odd.pad {
+    background: #1a1a1a !important;
+}
+
+tr.right.pad {
+    background: #2c2c2c !important;
+}
+
+tr > td > div > div {
+    color: #ffffff7d !important;
+    background: #5a4e38 !important;
+}
+
+.actionBar {
+    background: #111 !important;
+}
+
+.abandoned-count {
+    background: #5a4e38 !important;
+    box-shadow: 1px 1px 0px #382e1b !important;
+}
+
+.sub_sub_menu {
+  background: #111 !important;  
+}
+
+td.right > div > div {
+    background: none !important;
+}
+
+td.left.b, td.left {
+    background: #111 !important;
+}
+
+table.table {
+    background:none !important;
+}
+
+.achievement-header {
+    background: #382e1b !important;
+    color: #ffffff7d !important;
+    border: 1px solid #000 !important;
+}
+
+.achievement-body {
+    background: #3f382c !important;
+    color: #ffffff7d !important;
+    border: 1px solid #000 !important;
+}
+
+.alert.alert-warning {
+    background-color: #5a4e38 !important;
+    color: #ffffff7d !important;
+    border-color: #5a4e38 !important;
+}
+
+.item-surround {
+    background: none !important;
+}
+
+div.top.center {
+    background: #5a4e38 !important;
+    color: #ffffff7d !important;
+}
+
+.nav-pills > li.active > a {
+    background: #3f382c !important;
+}
+
+.nav-pills > li > a {
+    background: #111 !important;
+}
+
+button.button.gold {
+    background: #331f00 !important;
+}
+
+button.button.gold:hover {
+    background: #503100 !important;
+}
+
+.input-group-addon {
+    background: #383838 !important;
+    border: 1px solid #000 !important;
+}
+
+.combo-selection-container {
+    background: #1a1a1a !important;
+    border: 1px solid #000 !important;
+}
+
+th.sub-header {
+    background: #111 !important;
+}
+
+.pagination a.selected {
+    background: #382e1b !important;
+    color: #ffffff7d !important;
+}
+
+.pagination a:hover {
+    background: #3f382c !important;
+    color: #ffffff7d !important;
+}
+
+.pagination span {
+    background: #222 !important;
+}
+
+button.clearSelection.glyphicon.glyphicon-remove {
+    background: #1a1a1a !important;
+    border: 2px solid #ffffff7d !important;
+}
+
+ul.nav.nav-tabs.small.mb-4 {
+     border-bottom-color: #000
+}
+
+.nav-tabs > li.active > a {
+    background:#111 !important;
+    border: 1px solid #000 !important;
+}
+
+kbd {
+    background: #3f382c !important;
+    color: #ffffff7d !important;
+    border: 1px solid #000 !important;
+}
+
+a#charge.battle-claw-trigger, a#pounce.battle-claw-trigger, a#trample.battle-claw-trigger, a#bite.battle-claw-trigger, a#swipe.battle-claw-trigger, a#grab.battle-claw-trigger, a#pound.battle-claw-trigger, a#claw.battle-claw-trigger, a#kick.battle-claw-trigger, a#strangle.battle-claw-trigger, a#release, a#roar, a#rest, a#flee {
+    color: #222 !important;
+}
+
+a#charge.battle-claw-trigger:hover, a#pounce.battle-claw-trigger:hover, a#trample.battle-claw-trigger:hover, a#bite.battle-claw-trigger:hover, a#swipe.battle-claw-trigger:hover, a#grab.battle-claw-trigger:hover, a#pound.battle-claw-trigger:hover, a#claw.battle-claw-trigger:hover, a#kick.battle-claw-trigger:hover, a#strangle.battle-claw-trigger:hover, a#release:hover, a#roar:hover, a#rest:hover, a#flee:hover {
+    color: #ffffff7d !important;
+}
+
+.dib.mr-4, .dib, .right.auto {
+    background: none !important;
+}
+
+.cbo-list.open {
+    background: #3f382c !important;
+}
+
+.craftable {
+    background-color: #473a22 !important;
+}
+
+#recipelist:hover li:hover {
+    background: #383838 !important
+}
+
+#recipelist li{
+    background: #111;
+}
+
+.customiser-sortable li:nth-child(odd) {
+    background: #111 !important;
+}
+
+.optgroup-label {
+    background: #3f382c !important;
+}
+
+.customiser-sortable li:nth-child(odd) span.left {
+    background: #5a4e38 !important;
+}
+
+td.right_locked {
+    background: #2c2c2c !important;
+}
+
+a.p-2:hover {
+    background: #373737 !important;
+    border: 1px solid #111 !important;
+}
+
+div.b {
+    background: none !important;
+}
+
+div.bottom, p.center.b {
+    background: #111 !important;
+}
+
+.custom-select.form-control.dib { 
+    background: #242424 !important;
+}
+
+.customiser-bar {
+    background: none !important;
+}
+
+.top {
+    color: #ffffff7d !important;
+    background: #111 !important;
+}
+
+.slot-label.mr-2 {
+    background: #1a1a1a !important;
+}
+
+.customiser-block-grid:nth-child(2n+1) {
+    background:#1a1a1a !important;
+}
+
+.customiser-block-grid:nth-child(2n) {
+    background:#242424 !important;
+}
+
+.wardrobe-label[data-type="design"]
+{
+    background:#383838 !important;
+}
+}
